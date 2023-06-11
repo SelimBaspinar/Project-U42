@@ -6,7 +6,7 @@ Takım U42
 
 ## Takım Elemanları
 
-- Selim Başpına: Product Owner
+- Selim Başpınar: Product Owner
 - Aybüke Aktaş: Scrum Master
 - Yusuf Atak: Team Member/Developer
 - Emre Kaan Yıldırım: Team Member/Developer
