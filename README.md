@@ -1,4 +1,4 @@
-# **Takım İsmi**
+# **U42**
 
 Takım U42
 
@@ -30,8 +30,7 @@ Takım U42
 
 ## Product Backlog URL
 
-[Trello Backlog Board](https://miro.com/app/board/uXjVOSSCpsI=/)
-
+[Trello Backlog Board](https://trello.com/b/u4xlq32b/unityteam42projectplan)
 ---
 
 # Sprint 1
