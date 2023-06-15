@@ -14,19 +14,41 @@ Takım U42
 
 ## Ürün İsmi
 
---test--
+Fate Of Throne
 
 ## Ürün Açıklaması
 
-- test.
+- Orta çağda geçen öyküde krallıkların birçoğunda cadılar, şeytanla iş birliği yaptıkları gerekçesiyle halkta büyük korkulara sebep oluyorlardı. Kirli kan oldukları görüşü ile halk korkutuluyordu. Bu yüzden bulundukları yerde acımasız yargılamalardan geçirilerek çeşitli şekillerde öldürülüyorlardı. Herhangi bir konuda şüphe uyandıran bir kadın, hemen cadı olarak tanımlanır ve yakınmaları kabul edilirdi.
+
+Bu sırada cadı olan bir kadın, kız kardeşlerinin hayatını kurtarmak ve de kendini gizlenmek için bir yer aramaktadır. Böylece kralı kendine aşık ederek, kraldan bir kız çocuğu dünyaya getirdi. Bu süreçte kendini açık etmiş ve son kalan üç cadıdan biri olduğu ortaya çıkmıştır. Ancak, krallığın baş rahibi ve rahipler, bu kadını ve bebeği istemediler. Kral, rahiplere söz geçiremez ve tahtını kaybetme korkusu ile kadın yakılır. Ancak, kral çocuğu en güvendiği ve yakın arkadaşı olan bir rahibe teslim eder.
+
+Rahip, kız çocuğunu alarak kaçar. Baş rahip ve rahipler kızı aramaktadırlar. Çocuğunda ölmesi için emir verirler ama kralın arkadaşı olan rahip kızın öldüğü ile ilgili bir senaryo ayarlar, baş rahibi ve diğer rahipleri inandırır.
+Rahip kızı büyütmeye başlar bu süreçte kızı hem bir rahip hemde kılıç ustası olarak yetiştirmeye başlar. Kız, artık hem yaşayan tek cadı kanına sahiptir hem de kralın rahiplerin seçtiği, kadından olan ve hastalıktan ölen oğlu yerine geçebilecek tek soy bağıdır.
+
+Şimdi, kral yaşlandığı için tahta geçme hakkı kimse de olmadığını düşünen rahipler, kendi baş rahiplerini tahta geçirmeyi planlamaktadırlar.
+
+Kahramanımız ve onun vasisi olan rahip, krala yaklaşarak hırs ve parayla kirlenmiş rahiplerden kurtulmak,hem tahtı hem de annesinin ve tüm cadıların öcünü almak isterler.
+
+Hikaye ve oyunun sonunda kahramanlarımızın planları başarılı olur. Baş rahip ve rahiplerden tahtı kurtarır. Kirli kan olarak adlandırılan kralın kızı ise tahta çıkar, geriye kalan kirlenmiş rahipleri krallıktan sürer, annesinin ve tüm cadıların öcünü alır.
+
+Kahramanlarımız, barış ve huzur içinde krallığı yönetmeye devam ederler.
 
 ## Ürün Özellikleri
 
-- test
+- İzometrik kamera
+-Aksiyon / Macera
+-Mekanikler
+-Oyun oynama isteği
+-Oyunu rahatlıkla oynayabilme
+-Görev yeterliliği
 
 ## Hedef Kitle
 
-- test
+-Konu bütünlüğüne önem veren
+-Ses ve görüntü kalitesi isteyen
+-Görevlerde sürdürülebilirlik arayan
+-18 yaş ve üzeri
+-Oyun seven herkes
 
 ## Product Backlog URL
 
@@ -37,9 +59,9 @@ Takım U42
 
 - **Sprint Notları**: test
 
-- **Sprint içinde tamamlanması tahmin edilen puan**: 100 Puan
+- **Sprint içinde tamamlanması tahmin edilen puan**: 75 Puan
 
-- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 380 puanlık backlog bulunmaktadır. 4 sprint'e bölündüğünde ilk sprint'in en azından 100 ile başlaması gerektiğine karar verildi.
+- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 225 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in en azından 75 ile başlaması gerektiğine karar verildi.
 
 - **Backlog düzeni ve Story seçimleri**: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur. 
 
