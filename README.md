@@ -4,6 +4,8 @@ Takım U42
 
 # Ürün İle İlgili Bilgiler
 
+![Fate of Throme](https://github.com/SelimBaspinar/Project-U42/blob/a08c2e6e0202e46b1795da84f503e705c65d6a66/Fate%20of%20Throme.jpg)
+
 ## Takım Elemanları
 
 - Selim Başpınar: Product Owner
@@ -18,7 +20,7 @@ Fate Of Throne
 
 ## Ürün Açıklaması
 
-- Orta çağda geçen öyküde krallıkların birçoğunda cadılar, şeytanla iş birliği yaptıkları gerekçesiyle halkta büyük korkulara sebep oluyorlardı. Kirli kan oldukları görüşü ile halk korkutuluyordu. Bu yüzden bulundukları yerde acımasız yargılamalardan geçirilerek çeşitli şekillerde öldürülüyorlardı. Herhangi bir konuda şüphe uyandıran bir kadın, hemen cadı olarak tanımlanır ve yakınmaları kabul edilirdi.
+Orta çağda geçen öyküde krallıkların birçoğunda cadılar, şeytanla iş birliği yaptıkları gerekçesiyle halkta büyük korkulara sebep oluyorlardı. Kirli kan oldukları görüşü ile halk korkutuluyordu. Bu yüzden bulundukları yerde acımasız yargılamalardan geçirilerek çeşitli şekillerde öldürülüyorlardı. Herhangi bir konuda şüphe uyandıran bir kadın, hemen cadı olarak tanımlanır ve yakınmaları kabul edilirdi.
 
 Bu sırada cadı olan bir kadın, kız kardeşlerinin hayatını kurtarmak ve de kendini gizlenmek için bir yer aramaktadır. Böylece kralı kendine aşık ederek, kraldan bir kız çocuğu dünyaya getirdi. Bu süreçte kendini açık etmiş ve son kalan üç cadıdan biri olduğu ortaya çıkmıştır. Ancak, krallığın baş rahibi ve rahipler, bu kadını ve bebeği istemediler. Kral, rahiplere söz geçiremez ve tahtını kaybetme korkusu ile kadın yakılır. Ancak, kral çocuğu en güvendiği ve yakın arkadaşı olan bir rahibe teslim eder.
 
@@ -36,19 +38,19 @@ Kahramanlarımız, barış ve huzur içinde krallığı yönetmeye devam ederler
 ## Ürün Özellikleri
 
 - İzometrik kamera
--Aksiyon / Macera
--Mekanikler
--Oyun oynama isteği
--Oyunu rahatlıkla oynayabilme
--Görev yeterliliği
+- Aksiyon / Macera
+- Mekanikler
+- Oyun oynama isteği
+- Oyunu rahatlıkla oynayabilme
+- Görev yeterliliği
 
 ## Hedef Kitle
 
--Konu bütünlüğüne önem veren
--Ses ve görüntü kalitesi isteyen
--Görevlerde sürdürülebilirlik arayan
--18 yaş ve üzeri
--Oyun seven herkes
+- Konu bütünlüğüne önem veren
+- Ses ve görüntü kalitesi isteyen
+- Görevlerde sürdürülebilirlik arayan
+- 18 yaş ve üzeri
+- Oyun seven herkes
 
 ## Product Backlog URL
 
@@ -57,7 +59,7 @@ Kahramanlarımız, barış ve huzur içinde krallığı yönetmeye devam ederler
 
 # Sprint 1
 
-- **Sprint Notları**: test
+- **Sprint Notları**: Takım olarak proje yönetiminde Trello kullanımı kararlaştırıldı. To do, doing ve done olarak üç bölümde ele alındı. Acil olanlar kırmızı kapakla gösterilmiş olup, acil olmayanları yeşil kapak ve tamalananlar ise sarı olarak gösterilmiştir.
 
 - **Sprint içinde tamamlanması tahmin edilen puan**: 75 Puan
 
@@ -65,26 +67,29 @@ Kahramanlarımız, barış ve huzur içinde krallığı yönetmeye devam ederler
 
 - **Backlog düzeni ve Story seçimleri**: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur. 
 
-Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözüken kırmızı item'lar yapılacak işleri (task) gösterirken, mavi item'lar story'leri temsil etmektedir.
+Baclog içinde Story'lere, yapılacak işlere ve yapıcak kişilere göre ayarlanmıştır. To Do yapılacak işler belirlenirken, doing de yapılan işleri ve done da ise yapılmış işler gösterilmektedir.
 
-- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Slack üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 1 Daily Scrum Chats](https://github.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/blob/main/ProjectManagement/Sprint1Documents/DailyScrumMeetingNotesSprint1.docx?raw=true)
+- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Slack üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği word olarak Readme'de tarafımızdan paylaşılmaktadır: [Daily Scrum Chats Sprint1.docx](https://github.com/SelimBaspinar/Project-U42/blob/a08c2e6e0202e46b1795da84f503e705c65d6a66/Daily%20Scrum%20Chats%20Sprint1.docx)
 
 - **Sprint board update**: Sprint board screenshotları: 
-![Backlog 1](https://raw.githubusercontent.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/main/ProjectManagement/Sprint1Documents/backlog1.png) 
-![Backlog 2](https://raw.githubusercontent.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/main/ProjectManagement/Sprint1Documents/backlog2.png) 
-![Backlog 3](https://raw.githubusercontent.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/main/ProjectManagement/Sprint1Documents/backlog3.png)
+![15.06.23-01](https://github.com/SelimBaspinar/Project-U42/blob/a08c2e6e0202e46b1795da84f503e705c65d6a66/15.06.23-01.png) 
+![15.06.23-02](https://github.com/SelimBaspinar/Project-U42/blob/a08c2e6e0202e46b1795da84f503e705c65d6a66/15.06.23-02.png) 
+![15.06.23-03](https://github.com/SelimBaspinar/Project-U42/blob/a08c2e6e0202e46b1795da84f503e705c65d6a66/15.06.23-03.png)
+![15.06.23-04](https://github.com/SelimBaspinar/Project-U42/blob/a08c2e6e0202e46b1795da84f503e705c65d6a66/15.06.23-04.png)
+![15.06.23-05](https://github.com/SelimBaspinar/Project-U42/blob/a08c2e6e0202e46b1795da84f503e705c65d6a66/15.06.23-05.png)
 
-- **Ürün Durumu**: Ekran görüntüleri:
-  ![Screenshot 1](https://github.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/blob/main/ProjectManagement/Sprint1Documents/productss1.png?raw=true)
-  ![Screenshot 2](https://github.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/blob/main/ProjectManagement/Sprint1Documents/productss2.png?raw=true)
+
+![18.06.23-01](https://github.com/SelimBaspinar/Project-U42/blob/a08c2e6e0202e46b1795da84f503e705c65d6a66/18.06.23-01.png)
+![18.06.23-02](https://github.com/SelimBaspinar/Project-U42/blob/a08c2e6e0202e46b1795da84f503e705c65d6a66/18.06.23-02.png)
+
+- **Ürün Durumu**: Proje yazım aşamasında
 
 - **Sprint Review**: 
 Alınan kararlar: Veritabanı oluşturması email ile toplanacak veriler için gerekli görülmüştür. Fakat bir yandan da veritabanı form sayfası için gerekli olmamıştır. O sebeple PBI bir sonraki sprint'e aktarılmıştır. Çıkan ürünün çalışmasında ve testlerinde bir problem görülmemiştir. Ekstra koyulması gereken özellikler belirlenmiştir. Sprint Review katılımcıları: ......
 
 - **Sprint Retrospective:**
   - Takım içindeki görev dağılımıyla ilgili düzenleme yapılması kararı alınmıştır
-  - Tahmin puanları gözden geçirilmeli ve sprint planlama toplantılarında gerekli geri bildirimlerin developer'lar tarafından verildiğine emin olunmalı
-  - Unit test'ler için ayrılan efor/saat arttırılmalı 
+  - Tahmin puanları gözden geçirilmiştir
 
 -**Diğer Notlar**:
 - N/A
