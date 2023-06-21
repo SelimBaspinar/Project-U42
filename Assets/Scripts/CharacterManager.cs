@@ -20,7 +20,7 @@ public class CharacterManager : MonoBehaviour
     private Rigidbody2D rb;
     private SpriteRenderer spriteRenderer;
 
-    private void Start()
+    private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -28,9 +28,46 @@ public class CharacterManager : MonoBehaviour
 
     private void Update()
     {
-        float moveDirection = Input.GetAxis("Horizontal");
-        rb.velocity = new Vector2(moveDirection * moveSpeed, rb.velocity.y);
+        float moveDirection = HandleMovement();
+        HandleRotate(moveDirection);
+        HandleJump();
+        HandleAttack();
+        HandleTeleport();
 
+    }
+
+    private void HandleTeleport()
+    {
+        if (Input.GetMouseButton(1) && !isTeleporting)
+        {
+            isTeleporting = true;
+            Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            teleportPosition = new Vector3(mousePosition.x, mousePosition.y, transform.position.z);
+            // TODO: Işınlanma animasyonu eklenecek
+            TeleportAnimationFinished();
+        }
+    }
+
+    private void HandleAttack()
+    {
+        if (Input.GetMouseButton(0) && !isAttacking)
+        {
+            isAttacking = true;
+            // TODO: Saldırı animasyonu eklenecek
+        }
+    }
+
+    private void HandleJump()
+    {
+        if (Input.GetKeyDown(KeyCode.W) && !isJumping)
+        {
+            GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
+            isJumping = true;
+        }
+    }
+
+    private void HandleRotate(float moveDirection)
+    {
         if (moveDirection < 0)
         {
             //spriteRenderer.flipX = true; 
@@ -43,29 +80,15 @@ public class CharacterManager : MonoBehaviour
             transform.rotation = Quaternion.Euler(0f, 0f, 0f); // Sola dönme
 
         }
-
-        if (Input.GetKeyDown(KeyCode.W) && !isJumping)
-        {
-            GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
-            isJumping = true;
-        }
-
-        if (Input.GetMouseButton(0) && !isAttacking)
-        {
-            isAttacking = true;
-            // TODO: Saldırı animasyonu eklenecek
-        }
-
-        if (Input.GetMouseButton(1) && !isTeleporting)
-        {
-            isTeleporting = true;
-            Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            teleportPosition = new Vector3(mousePosition.x, mousePosition.y, transform.position.z);
-            // TODO: Işınlanma animasyonu eklenecek
-            TeleportAnimationFinished();
-        }
-
     }
+
+    private float HandleMovement()
+    {
+        float moveDirection = Input.GetAxis("Horizontal");
+        rb.velocity = new Vector2(moveDirection * moveSpeed, rb.velocity.y);
+        return moveDirection;
+    }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Ground"))
