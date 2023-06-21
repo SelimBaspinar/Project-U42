@@ -1,92 +1,88 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
 
 public class CharacterManager : MonoBehaviour
 {
-    // Start is called before the first frame update
     [SerializeField] float moveSpeed = 10f;
+    [SerializeField] float jumpForce = 5f;
+
     [SerializeField] float rotationSpeed = 150f;
     [SerializeField] float targetRotationSpeed = 5f;
 
+    private bool isJumping = false;
     private bool isAttacking = false;
     private bool isTeleporting = false;
     private Vector3 teleportPosition;
     private Vector3 targetPosition;
     private bool isRotating = false;
 
-    void Update()
+    private Rigidbody2D rb;
+    private SpriteRenderer spriteRenderer;
+
+    private void Start()
     {
-        float horizontalInput = Input.GetAxis("Horizontal");
-        float verticalInput = Input.GetAxis("Vertical");
+        rb = GetComponent<Rigidbody2D>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
+    }
 
-        Vector3 movement = transform.forward * verticalInput * moveSpeed * Time.deltaTime;
-        transform.Translate(movement, Space.World);
+    private void Update()
+    {
+        float moveDirection = Input.GetAxis("Horizontal");
+        rb.velocity = new Vector2(moveDirection * moveSpeed, rb.velocity.y);
 
-        Vector3 rotation = new Vector3(0f, horizontalInput * rotationSpeed * Time.deltaTime, 0f);
-        transform.Rotate(rotation);
+        if (moveDirection < 0)
+        {
+            //spriteRenderer.flipX = true; 
+            transform.rotation = Quaternion.Euler(-0f, 180f, 0f); // Sola dönme
+
+        }
+        else if (moveDirection > 0)
+        {
+            //spriteRenderer.flipX = false; 
+            transform.rotation = Quaternion.Euler(0f, 0f, 0f); // Sola dönme
+
+        }
+
+        if (Input.GetKeyDown(KeyCode.W) && !isJumping)
+        {
+            GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
+            isJumping = true;
+        }
 
         if (Input.GetMouseButton(0) && !isAttacking)
         {
             isAttacking = true;
-            //TODO saldırı animasyonu eklenecek
+            // TODO: Saldırı animasyonu eklenecek
         }
 
         if (Input.GetMouseButton(1) && !isTeleporting)
         {
             isTeleporting = true;
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            RaycastHit hit;
-            if (Physics.Raycast(ray, out hit))
-            {
-                teleportPosition = hit.point;
-                //TODO ışınlanma animasyonu eklenecek
-            }
+            Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            teleportPosition = new Vector3(mousePosition.x, mousePosition.y, transform.position.z);
+            // TODO: Işınlanma animasyonu eklenecek
             TeleportAnimationFinished();
         }
 
-        if (Input.GetMouseButtonDown(0))
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Ground"))
         {
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            RaycastHit hit;
-            if (Physics.Raycast(ray, out hit))
-            {
-                if (hit.collider.CompareTag("Enemy"))
-                {
-                    targetPosition = hit.point;
-                    targetPosition.y = transform.position.y;
-                    isRotating = true;
-                }
-            }
-        }
-
-        if (isRotating)
-        {
-            Vector3 targetDirection = targetPosition - transform.position;
-            Quaternion targetRotation = Quaternion.LookRotation(targetDirection);
-
-            if (Quaternion.Angle(transform.rotation, targetRotation) > 0.01f)
-            {
-                transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, targetRotationSpeed * Time.deltaTime);
-            }
-            else
-            {
-                isRotating = false;
-            }
+            isJumping = false;
         }
     }
-
     public void AttackAnimationFinished()
     {
         isAttacking = false;
-        //TODO saldırı animasyonu durdurulacak
+        // TODO: Saldırı animasyonu durdurulacak
     }
 
     public void TeleportAnimationFinished()
     {
         isTeleporting = false;
         transform.position = teleportPosition;
-        //TODO ışınlanma animasyonu durdurulacak
+        // TODO: Işınlanma animasyonu durdurulacak
     }
 }
