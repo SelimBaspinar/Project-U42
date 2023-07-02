@@ -25,11 +25,11 @@ Orta çağda geçen öyküde krallıkların birçoğunda cadılar, şeytanla iş
 Bu sırada cadı olan bir kadın, kız kardeşlerinin hayatını kurtarmak ve de kendini gizlenmek için bir yer aramaktadır. Böylece kralı kendine aşık ederek, kraldan bir kız çocuğu dünyaya getirdi. Bu süreçte kendini açık etmiş ve son kalan üç cadıdan biri olduğu ortaya çıkmıştır. Ancak, krallığın baş rahibi ve rahipler, bu kadını ve bebeği istemediler. Kral, rahiplere söz geçiremez ve tahtını kaybetme korkusu ile kadın yakılır. Ancak, kral çocuğu en güvendiği ve yakın arkadaşı olan bir rahibe teslim eder.
 
 Rahip, kız çocuğunu alarak kaçar. Baş rahip ve rahipler kızı aramaktadırlar. Çocuğunda ölmesi için emir verirler ama kralın arkadaşı olan rahip kızın öldüğü ile ilgili bir senaryo ayarlar, baş rahibi ve diğer rahipleri inandırır.
-Rahip kızı büyütmeye başlar bu süreçte kızı hem bir rahip hem de kılıç ustası olarak yetiştirmeye başlar. Kız, artık hem yaşayan tek cadı kanına sahiptir hem de kralın rahiplerin seçtiği, kadından olan ve hastalıktan ölen oğlu yerine geçebilecek tek soy bağıdır.
+Rahip kızı büyütmeye başlar bu süreçte kızı hem bir rahip hemde kılıç ustası olarak yetiştirmeye başlar. Kız, artık hem yaşayan tek cadı kanına sahiptir hem de kralın rahiplerin seçtiği, kadından olan ve hastalıktan ölen oğlu yerine geçebilecek tek soy bağıdır.
 
 Şimdi, kral yaşlandığı için tahta geçme hakkı kimse de olmadığını düşünen rahipler, kendi baş rahiplerini tahta geçirmeyi planlamaktadırlar.
 
-Kahramanımız ve onun vasisi olan rahip, krala yaklaşarak hırs ve parayla kirlenmiş rahiplerden kurtulmak, hem tahtı hem de annesinin ve tüm cadıların öcünü almak isterler.
+Kahramanımız ve onun vasisi olan rahip, krala yaklaşarak hırs ve parayla kirlenmiş rahiplerden kurtulmak,hem tahtı hem de annesinin ve tüm cadıların öcünü almak isterler.
 
 Hikaye ve oyunun sonunda kahramanlarımızın planları başarılı olur. Baş rahip ve rahiplerden tahtı kurtarır. Kirli kan olarak adlandırılan kralın kızı ise tahta çıkar, geriye kalan kirlenmiş rahipleri krallıktan sürer, annesinin ve tüm cadıların öcünü alır.
 
@@ -59,7 +59,7 @@ Kahramanlarımız, barış ve huzur içinde krallığı yönetmeye devam ederler
 
 # Sprint 1
 
-- **Sprint Notları**: Takım olarak proje yönetiminde Trello kullanımı kararlaştırıldı. To do, doing ve done olarak üç bölümde ele alındı. Acil olanlar kırmızı kapakla gösterilmiş olup, acil olmayanları yeşil kapak ve tamamlananlar ise sarı olarak gösterilmiştir.
+- **Sprint Notları**: Takım olarak proje yönetiminde Trello kullanımı kararlaştırıldı. To do, doing ve done olarak üç bölümde ele alındı. Acil olanlar kırmızı kapakla gösterilmiş olup, acil olmayanları yeşil kapak ve tamalananlar ise sarı olarak gösterilmiştir.
 
 - **Sprint içinde tamamlanması tahmin edilen puan**: 75 Puan
 
@@ -67,7 +67,7 @@ Kahramanlarımız, barış ve huzur içinde krallığı yönetmeye devam ederler
 
 - **Backlog düzeni ve Story seçimleri**: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur. 
 
-Baclog içinde Story'lere, yapılacak işlere ve yapacak kişilere göre ayarlanmıştır. To Do yapılacak işler belirlenirken, doing de yapılan işleri ve done da ise yapılmış işler gösterilmektedir.
+Baclog içinde Story'lere, yapılacak işlere ve yapıcak kişilere göre ayarlanmıştır. To Do yapılacak işler belirlenirken, doing de yapılan işleri ve done da ise yapılmış işler gösterilmektedir.
 
 - **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Slack üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği word olarak Readme'de tarafımızdan paylaşılmaktadır: [Daily Scrum Chats Sprint1.docx](https://github.com/SelimBaspinar/Project-U42/blob/a08c2e6e0202e46b1795da84f503e705c65d6a66/Daily%20Scrum%20Chats%20Sprint1.docx)
 
@@ -84,14 +84,8 @@ Baclog içinde Story'lere, yapılacak işlere ve yapacak kişilere göre ayarlan
 
 - **Ürün Durumu**: Proje yazım aşamasında
 
-- **Sprint Review**: Alınan kararlar: Veritabanı oluşturması email ile toplanacak veriler için gerekli görülmüştür. Veritabanı oluşturması email ile toplanacak veriler için gerekli görülmüştür. Fakat bir yandan da veritabanı form sayfası için gerekli olmamıştır. O sebeple PBI bir sonraki sprint'e aktarılmıştır. Çıkan ürünün çalışmasında ve testlerinde bir problem görülmemiştir. Ekstra koyulması gereken özellikler belirlenmiştir.
-
-Sprint Review katılımcıları: 
-- Selim Başpınar
-- Aybüke Aktaş
-- Yusuf Atak
-- Emre Kaan Yıldırım
-- Elif Uzuner
+- **Sprint Review**: 
+Alınan kararlar: Veritabanı oluşturması email ile toplanacak veriler için gerekli görülmüştür. Fakat bir yandan da veritabanı form sayfası için gerekli olmamıştır. O sebeple PBI bir sonraki sprint'e aktarılmıştır. Çıkan ürünün çalışmasında ve testlerinde bir problem görülmemiştir. Ekstra koyulması gereken özellikler belirlenmiştir. Sprint Review katılımcıları: ......
 
 - **Sprint Retrospective:**
   - Takım içindeki görev dağılımıyla ilgili düzenleme yapılması kararı alınmıştır
@@ -104,51 +98,7 @@ Sprint Review katılımcıları:
 
 # Sprint 2
 
-- **Sprint Notları**: Takım olarak toplantıda karakter animasyonun yapılaması ve mekaniğindeki sorunların çözülememesi nedeni ile 2d ye geçilmesine karar verilmiştir. Bu sprintte özellikle 2d ye geçildiği için GitHub Repository’nin 2d olarak değiştirilmesine yine assetlerin 2d ye göre düzenlenmesine odaklanılmıştır. Karakterin oyun içinde daha önemli olmasından ve ekibin uygulamada pratiğinin olmaması nedeniyle eğitimlerin alınmasına da devam edileceğinden grup üyelerinin kendi seçtikleri görevlerin dışında bireysel olarak karakter mekaniğini ile ilgilenilmesine; dolayısıyla 3. Sprintte de karakter üzerinde çalışılmaya devam edilmesine karar verildi. Proje yönetiminde Trello kullanımına devam edilmektedir.  To do, doing ve done olarak üç bölümde ele alındı. Acil olanlar kırmızı kapakla gösterilmiş olup, acil olmayanları yeşil kapak ve tamamlananlar ise sarı olarak gösterilmiştir.
 
-- **Sprint içinde tamamlanması tahmin edilen puan**: 77 Puan
-
-- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 225 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ikinci sprint'in toplam puanının 77 olmasına karar verildi. 
-
-- **Backlog düzeni ve Story seçimleri**: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur. 
-
-Baclog içinde Story'lere, yapılacak işlere ve yapıcak kişilere göre ayarlanmıştır. To Do yapılacak işler belirlenirken, doing de yapılan işleri ve done da ise yapılmış işler gösterilmektedir.
-
-- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Slack üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği word olarak Readme'de tarafımızdan paylaşılmaktadır: [Daily Scrum Chats Sprint2.docx](https://github.com/SelimBaspinar/Project-U42/blob/main/Daily%20Scrum%20Chats%20Sprint2.docx)
-
-- **Sprint board update**: Sprint board screenshotları: 
-![20.06.23-01](https://github.com/SelimBaspinar/Project-U42/blob/main/20.06.23-01.png) 
-![02.07.23-01](https://github.com/SelimBaspinar/Project-U42/blob/main/02.07.23-01.png) 
-![15.06.23-03](https://github.com/SelimBaspinar/Project-U42/blob/main/02.07.23-02.png)
-
-
-
-![İksirMekanik](https://github.com/SelimBaspinar/Project-U42/blob/main/%C4%B0ksirMekanik.mp4)
-![HealthBar](https://github.com/SelimBaspinar/Project-U42/blob/main/HealthBar.mp4)
-
-
-- **Ürün Durumu**: Bazı sistem ve mekanik uygulamalrı yapıldı karakter mekanikleri test ediliyor
-
-- **Sprint Review**: 
-Alınan kararlar:
-Karakter animasyon ve mekaniklerine yoğunlaşılacak. Oyun kullanıcı gözüyle incelendiğinde UX deneyimi ve UI'da yapılacak değişiklikler/düzenlemeler üzerine konuşuldu. 2. sprintte ekibin ekibin uygulama pratiğinin olmadığı mekanikler ve animasyonlar üzerinde ortak araştırmalar yapılmasına, eğitimler izlemesi ve farklı seçenekleri değerlendirmesine karar verildi. 3. sprintte de bu yaklaşımın devam ederek, uygulamanın bütünü için deneyim/tasarım iyileştirme üzerine yoğunlaşma kararı verildi.
-
-Sprint Review katılımcıları: 
-- Selim Başpınar
-- Aybüke Aktaş
-- Yusuf Atak
-- Emre Kaan Yıldırım
-- Elif Uzuner
-
-Sprint Retrospective:
-- Mekanik ve animasyonların aratırılmasına karar verilmiştir.
-- UI ve UX deneyimini iyileştirmek için çalışmaların devam etmesine karar verilmiştir.
-- 2. sprinte göre 3. sprintte geliştirme ve dDüzeltmeler yapılmasına kara verilmiştir.
-- Tahmin puanları gözden geçirilmiştir
-
--**Diğer Notlar**:
-- 26.06.2023 - 01.07.2023 tarihleri arasındaki bayram sürecinde ortak karar alınarak toplantı yapılmamasına kara verildi.
-  
 ---
 
 # Sprint 3
