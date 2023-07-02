@@ -72,6 +72,7 @@ Baclog içinde Story'lere, yapılacak işlere ve yapacak kişilere göre ayarlan
 - **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Slack üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği word olarak Readme'de tarafımızdan paylaşılmaktadır: [Daily Scrum Chats Sprint1.docx](https://github.com/SelimBaspinar/Project-U42/blob/a08c2e6e0202e46b1795da84f503e705c65d6a66/Daily%20Scrum%20Chats%20Sprint1.docx)
 
 - **Sprint board update**: Sprint board screenshotları: 
+
 ![15.06.23-01](https://github.com/SelimBaspinar/Project-U42/blob/a08c2e6e0202e46b1795da84f503e705c65d6a66/15.06.23-01.png) 
 ![15.06.23-02](https://github.com/SelimBaspinar/Project-U42/blob/a08c2e6e0202e46b1795da84f503e705c65d6a66/15.06.23-02.png) 
 ![15.06.23-03](https://github.com/SelimBaspinar/Project-U42/blob/a08c2e6e0202e46b1795da84f503e705c65d6a66/15.06.23-03.png)
@@ -82,9 +83,11 @@ Baclog içinde Story'lere, yapılacak işlere ve yapacak kişilere göre ayarlan
 ![18.06.23-01](https://github.com/SelimBaspinar/Project-U42/blob/a08c2e6e0202e46b1795da84f503e705c65d6a66/18.06.23-01.png)
 ![18.06.23-02](https://github.com/SelimBaspinar/Project-U42/blob/a08c2e6e0202e46b1795da84f503e705c65d6a66/18.06.23-02.png)
 
+
 - **Ürün Durumu**: Proje yazım aşamasında
 
 - **Sprint Review**: Alınan kararlar: Veritabanı oluşturması email ile toplanacak veriler için gerekli görülmüştür. Veritabanı oluşturması email ile toplanacak veriler için gerekli görülmüştür. Fakat bir yandan da veritabanı form sayfası için gerekli olmamıştır. O sebeple PBI bir sonraki sprint'e aktarılmıştır. Çıkan ürünün çalışmasında ve testlerinde bir problem görülmemiştir. Ekstra koyulması gereken özellikler belirlenmiştir.
+
 
 Sprint Review katılımcıları: 
 - Selim Başpınar
@@ -93,12 +96,13 @@ Sprint Review katılımcıları:
 - Emre Kaan Yıldırım
 - Elif Uzuner
 
+
 - **Sprint Retrospective:**
   - Takım içindeki görev dağılımıyla ilgili düzenleme yapılması kararı alınmıştır
   - Tahmin puanları gözden geçirilmiştir
 
+
 -**Diğer Notlar**:
-- N/A
 
 ---
 
@@ -117,6 +121,7 @@ Baclog içinde Story'lere, yapılacak işlere ve yapıcak kişilere göre ayarla
 - **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Slack üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği word olarak Readme'de tarafımızdan paylaşılmaktadır: [Daily Scrum Chats Sprint2.docx](https://github.com/SelimBaspinar/Project-U42/blob/main/Daily%20Scrum%20Chats%20Sprint2.docx)
 
 - **Sprint board update**: Sprint board screenshotları: 
+
 ![20.06.23-01](https://github.com/SelimBaspinar/Project-U42/blob/main/20.06.23-01.png) 
 ![02.07.23-01](https://github.com/SelimBaspinar/Project-U42/blob/main/02.07.23-01.png) 
 ![15.06.23-03](https://github.com/SelimBaspinar/Project-U42/blob/main/02.07.23-02.png)
@@ -133,11 +138,14 @@ Health Bar
 https://github.com/SelimBaspinar/Project-U42/assets/119876299/28aeba8b-2f67-4bc1-9a14-d494dcebb81b
 
 
+
 - **Ürün Durumu**: Bazı sistem ve mekanik uygulamalrı yapıldı karakter mekanikleri test ediliyor
+
 
 - **Sprint Review**: 
 Alınan kararlar:
 Karakter animasyon ve mekaniklerine yoğunlaşılacak. Oyun kullanıcı gözüyle incelendiğinde UX deneyimi ve UI'da yapılacak değişiklikler/düzenlemeler üzerine konuşuldu. 2. sprintte ekibin ekibin uygulama pratiğinin olmadığı mekanikler ve animasyonlar üzerinde ortak araştırmalar yapılmasına, eğitimler izlemesi ve farklı seçenekleri değerlendirmesine karar verildi. 3. sprintte de bu yaklaşımın devam ederek, uygulamanın bütünü için deneyim/tasarım iyileştirme üzerine yoğunlaşma kararı verildi.
+
 
 Sprint Review katılımcıları: 
 - Selim Başpınar
@@ -145,6 +153,7 @@ Sprint Review katılımcıları:
 - Yusuf Atak
 - Emre Kaan Yıldırım
 - Elif Uzuner
+
 
 Sprint Retrospective:
 - Mekanik ve animasyonların aratırılmasına karar verilmiştir.
