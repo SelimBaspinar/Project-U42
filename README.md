@@ -123,8 +123,13 @@ Baclog içinde Story'lere, yapılacak işlere ve yapıcak kişilere göre ayarla
 
 
 
-![İksirMekanik](https://github.com/SelimBaspinar/Project-U42/blob/main/%C4%B0ksirMekanik.mp4)
-![HealthBar](https://github.com/SelimBaspinar/Project-U42/blob/main/HealthBar.mp4)
+İksir Mekanik 
+https://github.com/SelimBaspinar/Project-U42/assets/119876299/1177fa38-ea0d-4097-8eab-10fb35186b5c
+
+
+Health Bar
+
+https://github.com/SelimBaspinar/Project-U42/assets/119876299/28aeba8b-2f67-4bc1-9a14-d494dcebb81b
 
 
 - **Ürün Durumu**: Bazı sistem ve mekanik uygulamalrı yapıldı karakter mekanikleri test ediliyor
