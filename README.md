@@ -101,7 +101,6 @@ Sprint Review katılımcıları:
   - Takım içindeki görev dağılımıyla ilgili düzenleme yapılması kararı alınmıştır
   - Tahmin puanları gözden geçirilmiştir
 
-
 -**Diğer Notlar**:
 
 ---
@@ -140,7 +139,6 @@ https://github.com/SelimBaspinar/Project-U42/assets/119876299/28aeba8b-2f67-4bc1
 
 
 - **Ürün Durumu**: Bazı sistem ve mekanik uygulamalrı yapıldı karakter mekanikleri test ediliyor
-
 
 - **Sprint Review**: 
 Alınan kararlar:
