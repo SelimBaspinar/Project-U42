@@ -124,6 +124,7 @@ Baclog içinde Story'lere, yapılacak işlere ve yapıcak kişilere göre ayarla
 
 
 İksir Mekanik 
+
 https://github.com/SelimBaspinar/Project-U42/assets/119876299/1177fa38-ea0d-4097-8eab-10fb35186b5c
 
 
