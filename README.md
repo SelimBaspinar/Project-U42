@@ -71,7 +71,8 @@ Baclog içinde Story'lere, yapılacak işlere ve yapacak kişilere göre ayarlan
 
 - **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Slack üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği word olarak Readme'de tarafımızdan paylaşılmaktadır: [Daily Scrum Chats Sprint1.docx](https://github.com/SelimBaspinar/Project-U42/blob/a08c2e6e0202e46b1795da84f503e705c65d6a66/Daily%20Scrum%20Chats%20Sprint1.docx)
 
-- **Sprint board update**: Sprint board screenshotları: 
+- **Sprint board update**: Sprint board screenshotları:
+
 ![15.06.23-01](https://github.com/SelimBaspinar/Project-U42/blob/a08c2e6e0202e46b1795da84f503e705c65d6a66/15.06.23-01.png) 
 ![15.06.23-02](https://github.com/SelimBaspinar/Project-U42/blob/a08c2e6e0202e46b1795da84f503e705c65d6a66/15.06.23-02.png) 
 ![15.06.23-03](https://github.com/SelimBaspinar/Project-U42/blob/a08c2e6e0202e46b1795da84f503e705c65d6a66/15.06.23-03.png)
@@ -116,7 +117,8 @@ Baclog içinde Story'lere, yapılacak işlere ve yapıcak kişilere göre ayarla
 
 - **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Slack üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği word olarak Readme'de tarafımızdan paylaşılmaktadır: [Daily Scrum Chats Sprint2.docx](https://github.com/SelimBaspinar/Project-U42/blob/main/Daily%20Scrum%20Chats%20Sprint2.docx)
 
-- **Sprint board update**: Sprint board screenshotları: 
+- **Sprint board update**: Sprint board screenshotları:
+
 ![20.06.23-01](https://github.com/SelimBaspinar/Project-U42/blob/main/20.06.23-01.png) 
 ![02.07.23-01](https://github.com/SelimBaspinar/Project-U42/blob/main/02.07.23-01.png) 
 ![15.06.23-03](https://github.com/SelimBaspinar/Project-U42/blob/main/02.07.23-02.png)
@@ -124,6 +126,7 @@ Baclog içinde Story'lere, yapılacak işlere ve yapıcak kişilere göre ayarla
 
 
 İksir Mekanik 
+
 https://github.com/SelimBaspinar/Project-U42/assets/119876299/1177fa38-ea0d-4097-8eab-10fb35186b5c
 
 
@@ -148,7 +151,7 @@ Sprint Review katılımcıları:
 Sprint Retrospective:
 - Mekanik ve animasyonların aratırılmasına karar verilmiştir.
 - UI ve UX deneyimini iyileştirmek için çalışmaların devam etmesine karar verilmiştir.
-- 2. sprinte göre 3. sprintte geliştirme ve dDüzeltmeler yapılmasına kara verilmiştir.
+- 2.sprinte göre 3.sprintte geliştirme ve düzeltmeler yapılmasına kara verilmiştir.
 - Tahmin puanları gözden geçirilmiştir
 
 -**Diğer Notlar**:
