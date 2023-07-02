@@ -149,7 +149,7 @@ Sprint Review katılımcıları:
 Sprint Retrospective:
 - Mekanik ve animasyonların aratırılmasına karar verilmiştir.
 - UI ve UX deneyimini iyileştirmek için çalışmaların devam etmesine karar verilmiştir.
-- 2. sprinte göre 3. sprintte geliştirme ve dDüzeltmeler yapılmasına kara verilmiştir.
+- 2.sprinte göre 3.sprintte geliştirme ve düzeltmeler yapılmasına kara verilmiştir.
 - Tahmin puanları gözden geçirilmiştir
 
 -**Diğer Notlar**:
