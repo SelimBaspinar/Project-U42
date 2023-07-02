@@ -99,7 +99,7 @@ Sprint Review katılımcıları:
   - Tahmin puanları gözden geçirilmiştir
 
 -**Diğer Notlar**:
-- N/A
+
 
 ---
 
