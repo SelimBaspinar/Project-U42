@@ -12,10 +12,7 @@ public class CharacterManager : MonoBehaviour
 
     private bool isJumping = false;
     private bool isAttacking = false;
-    private bool isTeleporting = false;
-    private Vector3 teleportPosition;
-    private Vector3 targetPosition;
-    private bool isRotating = false;
+  
 
     private Rigidbody2D rb;
     private SpriteRenderer spriteRenderer;
@@ -32,21 +29,10 @@ public class CharacterManager : MonoBehaviour
         HandleRotate(moveDirection);
         HandleJump();
         HandleAttack();
-        HandleTeleport();
 
     }
 
-    private void HandleTeleport()
-    {
-        if (Input.GetMouseButton(1) && !isTeleporting)
-        {
-            isTeleporting = true;
-            Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            teleportPosition = new Vector3(mousePosition.x, mousePosition.y, transform.position.z);
-            // TODO: Işınlanma animasyonu eklenecek
-            TeleportAnimationFinished();
-        }
-    }
+  
 
     private void HandleAttack()
     {
@@ -102,10 +88,4 @@ public class CharacterManager : MonoBehaviour
         // TODO: Saldırı animasyonu durdurulacak
     }
 
-    public void TeleportAnimationFinished()
-    {
-        isTeleporting = false;
-        transform.position = teleportPosition;
-        // TODO: Işınlanma animasyonu durdurulacak
-    }
 }
