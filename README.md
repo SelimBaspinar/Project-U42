@@ -124,6 +124,8 @@ Baclog içinde Story'lere, yapılacak işlere ve yapıcak kişilere göre ayarla
 ![15.06.23-03](https://github.com/SelimBaspinar/Project-U42/blob/main/02.07.23-02.png)
 
 
+- **Ürün Durumu**: Bazı sistem ve mekanik uygulamaları yapıldı karakter mekanikleri test ediliyor.
+
 
 İksir Mekaniği 
 
@@ -134,8 +136,6 @@ Health Bar
 
 https://github.com/SelimBaspinar/Project-U42/assets/119876299/28aeba8b-2f67-4bc1-9a14-d494dcebb81b
 
-
-- **Ürün Durumu**: Bazı sistem ve mekanik uygulamaları yapıldı karakter mekanikleri test ediliyor.
 
 - **Sprint Review**: 
 Alınan kararlar:
@@ -161,7 +161,7 @@ Sprint Retrospective:
 
 # Sprint 3
 
-- **Sprint Notları**: Takım olarak 2. Sprint toplantısında 3. Sprint için karakter üzerinde çalışılmalara devam edilmesine karar verilmişti ve çeşitli assetlerde ki karakterin animasyonları denenerek ortak kararla bir tanesinde kesinleştirildi ve oyunun geri kalan kısımlarıyla karakterin komutları kullanması gerçekleştirildi. Github’a atılan bazı dosyaların büyük boyutlu olduğu için sorun çıkarmasından dolayı Google Drive üzerinden de kod ve dosya paylaşımı yapıldı.
+- **Sprint Notları**: Takım olarak 2. Sprint toplantısında 3. Sprint için karakter üzerinde çalışılmalara devam edilmesine karar verilmişti ve çeşitli assetlerde ki karakterin animasyonları denenerek ortak kararla bir tanesinde kesinleştirildi ve oyunun geri kalan kısımlarıyla karakterin komutları kullanması gerçekleştirildi. Github’a atılan bazı dosyaların büyük boyutlu olduğu için sorun çıkarmasından dolayı Google Drive üzerinden de kod ve dosya paylaşımı yapıldı. 2.Sprinteki bazı mekaniklerden vazgeçildi.
 
 Oyun tanıtım videosu düzenlemeleri yapıldı. Ses, görüntü ve benzeri araçlar araştırıldı ve en uygun olanına karar verildi.
 
@@ -184,11 +184,11 @@ Baclog içinde Story'lere, yapılacak işlere ve yapacak kişilere göre ayarlan
 ![15.07.23](https://raw.githubusercontent.com/SelimBaspinar/Project-U42/main/15.07.23.png)
 
 
+- **Ürün Durumu**: Oyun kullanıcının gözünden ilerlemesinde sorun bulunduğu için tekrar test ediliyor.
+
 ![Level1](https://raw.githubusercontent.com/SelimBaspinar/Project-U42/main/Level1.png)
 ![Level2](https://raw.githubusercontent.com/SelimBaspinar/Project-U42/main/Level2.png)
 
-
-- **Ürün Durumu**: Oyun kullanıcının gözünden ilerlemesinde sorun bulunduğu için tekrar test ediliyor.
 
 - **Sprint Review**: 
 Alınan kararlar:
@@ -202,6 +202,7 @@ Sprint Review katılımcıları:
 - Elif Uzuner
 
 Sprint Retrospective:
+- Bazı mekaniklerden vazgeçildi.
 - Kullanıcı için bir sorun olup olmadığına bakılmıştır.
 - Oyunda hata ile karşılaşıldı ve düzeltilmesi için mekanik ve animasyon araştırılmasına karar verilmiştir.
 - Oyunu tanıtım videosuna karar verildi. 
