@@ -11,16 +11,16 @@ public class CharacterManager : MonoBehaviour
     [SerializeField] float targetRotationSpeed = 5f;
 
     private bool isJumping = false;
-    private bool isAttacking = false;
-  
+    private bool isMoving = false;
+    private bool isFalling = false;
 
     private Rigidbody2D rb;
-    private SpriteRenderer spriteRenderer;
+    private Animator animator;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
     }
 
     private void Update()
@@ -28,27 +28,31 @@ public class CharacterManager : MonoBehaviour
         float moveDirection = HandleMovement();
         HandleRotate(moveDirection);
         HandleJump();
-        HandleAttack();
+        HandleFall();
 
     }
 
   
-
-    private void HandleAttack()
-    {
-        if (Input.GetMouseButton(0) && !isAttacking)
-        {
-            isAttacking = true;
-            // TODO: Saldırı animasyonu eklenecek
-        }
-    }
-
     private void HandleJump()
     {
         if (Input.GetKeyDown(KeyCode.W) && !isJumping)
         {
             GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
             isJumping = true;
+            animator.SetBool("isJump", isJumping);
+
+        }
+    }
+
+    private void HandleFall()
+    {
+        Debug.Log(rb.velocity.y);
+        if (rb.velocity.y < -0.1f)
+        {
+            isFalling = true;
+            isJumping= false;
+            animator.SetBool("isJump", isJumping);
+            animator.SetBool("isFall", isFalling);
         }
     }
 
@@ -72,6 +76,18 @@ public class CharacterManager : MonoBehaviour
     {
         float moveDirection = Input.GetAxis("Horizontal");
         rb.velocity = new Vector2(moveDirection * moveSpeed, rb.velocity.y);
+
+        if (Mathf.Abs(moveDirection) > 0.1f && !isJumping && !isFalling)
+        {
+            isMoving = true;
+            animator.SetBool("isMove", isMoving);
+        }
+        else
+        {
+            isMoving = false;
+            animator.SetBool("isMove", isMoving);
+        }
+
         return moveDirection;
     }
 
@@ -80,12 +96,11 @@ public class CharacterManager : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             isJumping = false;
+            isFalling = false;
+            animator.SetBool("isJump", isJumping);
+            animator.SetBool("isFall", isFalling);
         }
     }
-    public void AttackAnimationFinished()
-    {
-        isAttacking = false;
-        // TODO: Saldırı animasyonu durdurulacak
-    }
+   
 
 }
