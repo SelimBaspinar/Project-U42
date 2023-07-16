@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/girisekrani.unity
+    guid: 29cbc7b0b5041904588f385f3700688d
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/SecondScene.unity
+    guid: 91f21594b2af60c48854429ca1997313
+  - enabled: 1
+    path: Assets/Scenes/ThirdScene.unity
+    guid: f85fa26071e14fa44b7c0eb0a943d422
   m_configObjects: {}
