@@ -135,11 +135,11 @@ Health Bar
 https://github.com/SelimBaspinar/Project-U42/assets/119876299/28aeba8b-2f67-4bc1-9a14-d494dcebb81b
 
 
-- **Ürün Durumu**: Bazı sistem ve mekanik uygulamalrı yapıldı karakter mekanikleri test ediliyor
+- **Ürün Durumu**: Bazı sistem ve mekanik uygulamaları yapıldı karakter mekanikleri test ediliyor.
 
 - **Sprint Review**: 
 Alınan kararlar:
-Karakter animasyon ve mekaniklerine yoğunlaşılacak. Oyun kullanıcı gözüyle incelendiğinde UX deneyimi ve UI'da yapılacak değişiklikler/düzenlemeler üzerine konuşuldu. 2. sprintte ekibin ekibin uygulama pratiğinin olmadığı mekanikler ve animasyonlar üzerinde ortak araştırmalar yapılmasına, eğitimler izlemesi ve farklı seçenekleri değerlendirmesine karar verildi. 3. sprintte de bu yaklaşımın devam ederek, uygulamanın bütünü için deneyim/tasarım iyileştirme üzerine yoğunlaşma kararı verildi.
+Karakter animasyon ve mekaniklerine yoğunlaşılacak. Oyun kullanıcı gözüyle incelendiğinde UX deneyimi ve UI'da yapılacak değişiklikler/düzenlemeler üzerine konuşuldu. 2. sprintte ekibin uygulama pratiğinin olmadığı mekanikler ve animasyonlar üzerinde ortak araştırmalar yapılmasına, eğitimler izlemesi ve farklı seçenekleri değerlendirmesine karar verildi. 3. sprintte de bu yaklaşımın devam ederek, uygulamanın bütünü için deneyim/tasarım iyileştirme üzerine yoğunlaşma kararı verildi.
 
 Sprint Review katılımcıları: 
 - Selim Başpınar
@@ -149,7 +149,7 @@ Sprint Review katılımcıları:
 - Elif Uzuner
 
 Sprint Retrospective:
-- Mekanik ve animasyonların aratırılmasına karar verilmiştir.
+- Mekanik ve animasyonların araştırılmasına karar verilmiştir.
 - UI ve UX deneyimini iyileştirmek için çalışmaların devam etmesine karar verilmiştir.
 - 2.sprinte göre 3.sprintte geliştirme ve düzeltmeler yapılmasına kara verilmiştir.
 - Tahmin puanları gözden geçirilmiştir
@@ -161,4 +161,56 @@ Sprint Retrospective:
 
 # Sprint 3
 
----
+- **Sprint Notları**: Takım olarak 2. Sprint toplantısında 3. Sprint için karakter üzerinde çalışılmalara devam edilmesine karar verilmişti ve çeşitli assetlerde ki karakterin animasyonları denenerek ortak kararla bir tanesinde kesinleştirildi ve oyunun geri kalan kısımlarıyla karakterin komutları kullanması gerçekleştirildi. Github’a atılan bazı dosyaların büyük boyutlu olduğu için sorun çıkarmasından dolayı Google Drive üzerinden de kod ve dosya paylaşımı yapıldı.
+
+Oyun tanıtım videosu düzenlemeleri yapıldı. Ses, görüntü ve benzeri araçlar araştırıldı ve en uygun olanına karar verildi.
+
+Proje yönetiminde Trello kullanımına devam edilmekte ve to do, doing ve done olarak üç bölümde ele alındı. Acil olanlar kırmızı kapakla gösterilmiş olup, acil olmayanları yeşil kapak ve tamamlananlar ise sarı olarak gösterilmiştir.
+
+- **Sprint içinde tamamlanması tahmin edilen puan**: 73 Puan
+
+- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 225 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde üçüncü sprint'in toplam puanının 73 olmasına karar verildi. 
+
+- **Backlog düzeni ve Story seçimleri**: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur. 
+
+Baclog içinde Story'lere, yapılacak işlere ve yapacak kişilere göre ayarlanmıştır. To Do yapılacak işler belirlenirken, doing de yapılan işleri ve done da ise yapılmış işler gösterilmektedir.
+
+- **Daily Scrum**: Daily Scrum toplantılarının Discord ve Whatsapp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği word olarak Readme'de tarafımızdan paylaşılmaktadır: [Daily Scrum Chats Sprint3.docx](https://github.com/SelimBaspinar/Project-U42/blob/0935510d4a5fbd4ce8990a7378c8bdce27ffb762/Daily%20Scrum%20Chats%20Sprint3.docx)
+
+- **Sprint board update**: Sprint board screenshotları:
+
+![09.07.23](https://raw.githubusercontent.com/SelimBaspinar/Project-U42/main/09.07.23.png) 
+![12.07.23](https://raw.githubusercontent.com/SelimBaspinar/Project-U42/main/12.07.23.png)
+![15.07.23](https://raw.githubusercontent.com/SelimBaspinar/Project-U42/main/15.07.23.png)
+
+
+![Level1](https://raw.githubusercontent.com/SelimBaspinar/Project-U42/main/Level1.png)
+![Level2](https://raw.githubusercontent.com/SelimBaspinar/Project-U42/main/Level2.png)
+
+
+- **Ürün Durumu**: Oyun kullanıcının gözünden ilerlemesinde sorun bulunduğu için tekrar test ediliyor.
+
+- **Sprint Review**: 
+Alınan kararlar:
+Karakter animasyon ve mekaniklerinin oyuna uygulanmasına devam edilecek. Oyun kullanıcı gözüyle incelendiğinde hata olup olmadığına bakılacak. 3. sprintte oyun kullanıcısı için deneyim/tasarım iyileştirme üzerine yoğunlaşma kararı verildi ve uygulamalarla hatalar tespit edildi.
+
+Sprint Review katılımcıları: 
+- Selim Başpınar
+- Aybüke Aktaş
+- Yusuf Atak
+- Emre Kaan Yıldırım
+- Elif Uzuner
+
+Sprint Retrospective:
+- Kullanıcı için bir sorun olup olmadığına bakılmıştır.
+- Oyunda hata ile karşılaşıldı ve düzeltilmesi için mekanik ve animasyon araştırılmasına karar verilmiştir.
+- Oyunu tanıtım videosuna karar verildi. 
+- Video görseli için düzenlemeler yapıldı.
+- Tahmini puanlar gözden geçirildi.
+- Toplam puanın doğruluğu hesaplandı.
+
+-**Diğer Notlar**:
+Son toplantıda oyun çalışmasında sorun bulundu ve tekrar düzeltilmesine karar verildi.
+
+
+
