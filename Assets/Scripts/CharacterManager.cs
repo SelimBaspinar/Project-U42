@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CharacterManager : MonoBehaviour
 {
@@ -29,10 +30,9 @@ public class CharacterManager : MonoBehaviour
         HandleRotate(moveDirection);
         HandleJump();
         HandleFall();
-
     }
 
-  
+
     private void HandleJump()
     {
         if (Input.GetKeyDown(KeyCode.W) && !isJumping)
@@ -46,11 +46,9 @@ public class CharacterManager : MonoBehaviour
 
     private void HandleFall()
     {
-        Debug.Log(rb.velocity.y);
         if (rb.velocity.y < -0.1f)
         {
             isFalling = true;
-            isJumping= false;
             animator.SetBool("isJump", isJumping);
             animator.SetBool("isFall", isFalling);
         }
@@ -99,6 +97,10 @@ public class CharacterManager : MonoBehaviour
             isFalling = false;
             animator.SetBool("isJump", isJumping);
             animator.SetBool("isFall", isFalling);
+        }
+        if (collision.gameObject.CompareTag("Boundary"))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
    
