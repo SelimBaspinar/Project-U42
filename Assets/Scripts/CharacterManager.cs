@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CharacterManager : MonoBehaviour
 {
@@ -11,19 +12,16 @@ public class CharacterManager : MonoBehaviour
     [SerializeField] float targetRotationSpeed = 5f;
 
     private bool isJumping = false;
-    private bool isAttacking = false;
-    private bool isTeleporting = false;
-    private Vector3 teleportPosition;
-    private Vector3 targetPosition;
-    private bool isRotating = false;
+    private bool isMoving = false;
+    private bool isFalling = false;
 
     private Rigidbody2D rb;
-    private SpriteRenderer spriteRenderer;
+    private Animator animator;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
     }
 
     private void Update()
@@ -31,31 +29,9 @@ public class CharacterManager : MonoBehaviour
         float moveDirection = HandleMovement();
         HandleRotate(moveDirection);
         HandleJump();
-        HandleAttack();
-        HandleTeleport();
-
+        HandleFall();
     }
 
-    private void HandleTeleport()
-    {
-        if (Input.GetMouseButton(1) && !isTeleporting)
-        {
-            isTeleporting = true;
-            Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            teleportPosition = new Vector3(mousePosition.x, mousePosition.y, transform.position.z);
-            // TODO: Işınlanma animasyonu eklenecek
-            TeleportAnimationFinished();
-        }
-    }
-
-    private void HandleAttack()
-    {
-        if (Input.GetMouseButton(0) && !isAttacking)
-        {
-            isAttacking = true;
-            // TODO: Saldırı animasyonu eklenecek
-        }
-    }
 
     private void HandleJump()
     {
@@ -63,6 +39,18 @@ public class CharacterManager : MonoBehaviour
         {
             GetComponent<Rigidbody2D>().AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
             isJumping = true;
+            animator.SetBool("isJump", isJumping);
+
+        }
+    }
+
+    private void HandleFall()
+    {
+        if (rb.velocity.y < -0.1f)
+        {
+            isFalling = true;
+            animator.SetBool("isJump", isJumping);
+            animator.SetBool("isFall", isFalling);
         }
     }
 
@@ -86,6 +74,18 @@ public class CharacterManager : MonoBehaviour
     {
         float moveDirection = Input.GetAxis("Horizontal");
         rb.velocity = new Vector2(moveDirection * moveSpeed, rb.velocity.y);
+
+        if (Mathf.Abs(moveDirection) > 0.1f && !isJumping && !isFalling)
+        {
+            isMoving = true;
+            animator.SetBool("isMove", isMoving);
+        }
+        else
+        {
+            isMoving = false;
+            animator.SetBool("isMove", isMoving);
+        }
+
         return moveDirection;
     }
 
@@ -94,18 +94,15 @@ public class CharacterManager : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             isJumping = false;
+            isFalling = false;
+            animator.SetBool("isJump", isJumping);
+            animator.SetBool("isFall", isFalling);
+        }
+        if (collision.gameObject.CompareTag("Boundary"))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
-    public void AttackAnimationFinished()
-    {
-        isAttacking = false;
-        // TODO: Saldırı animasyonu durdurulacak
-    }
+   
 
-    public void TeleportAnimationFinished()
-    {
-        isTeleporting = false;
-        transform.position = teleportPosition;
-        // TODO: Işınlanma animasyonu durdurulacak
-    }
 }
